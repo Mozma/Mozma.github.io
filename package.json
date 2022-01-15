@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-modules": "^4.3.0",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  }
 }
