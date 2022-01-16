@@ -750,7 +750,7 @@ form label {
 #gtco-footer,
 #gtco-faq,
 .gtco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
   position: relative;
 }
@@ -1948,12 +1948,12 @@ form label {
   transition: 0.5s;
 }
 
-.gtco-card-item .gtco-text .gtco-category {
+.gtco-card-item .gtco-text .gtco-stack {
   font-size: 12px;
   color: #cccccc;
 }
 
-.gtco-card-item .gtco-text .gtco-category span {
+.gtco-card-item .gtco-text .gtco-stack span {
   font-size: 12px;
   color: gray;
   display: -moz-inline-stack;
