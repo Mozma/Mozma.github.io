@@ -1,268 +1,287 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Илья Задорнов</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Themify Icons-->
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <title>Илья Задорнов</title>
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/footer.css">
+
 
 
 </head>
 
 <body>
 
-	<div class="gtco-loader"></div>
+    <div id="loading"></div>
+    <div id="page">
 
-	<div id="page">
-		<nav class="gtco-nav" role="navigation">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-sm-5">
-						<div id="gtco-logo"><a href="index.html">Илья Задорнов</a></div>
-					</div>
-					<div class="col-xs-7 text-right menu-1 main-nav">
-						<ul>
-							<li><a href="#" data-nav-section="projects">Проекты</a></li>
-							<li><a href="#" data-nav-section="skills">Навыки</a></li>
-							<li><a href="#" data-nav-section="contact">Контакты</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
+        <nav>
+            <div class="navbar">
+                <div class="text-logo">
+                    <a href="index.html">ИЛЬЯ ЗАДОРНОВ</a>
+                </div>
 
+                <div class="main-navigation ">
+                    <ul>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#skills">Навыки</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
 
-		<div id="gtco-blog" data-section="projects">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-						<h2>Проекты</h2>
-						<p>Очень классное описание</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<a href="https://github.com/Mozma/Bookshelf" target="_blank" rel="noopener noreferrer"
-							class="gtco-card-item has-text">
-							<figure>
-								<div class="overlay"><i class="ti-arrow-right"></i></div>
-								<img src="images/Shelf.png" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text text-left">
-								<h2>Bookshelf</h2>
-								<p>Небольшое приложение для организации книжной коллекции</p>
-								<p class="gtco-stack">WPF, SQLite, Entity Framework</p>
-
-							</div>
-						</a>
-					</div>
+            </div>
+        </nav>
 
 
+        <!-- Projects -->
+        <div id="projects" data-section="projects">
+            <div class="main-container">
+                <div class="row">
+                    <div class="text-center projects-heading">
+                        <h2>Проекты</h2>
+                        <p>Очень классное описание</p>
+                    </div>
+                </div>
+                <div class="row ">
 
-					<div class="col-md-4">
-						<a href="https://github.com/Mozma/OnlineStore" target="_blank" rel="noopener noreferrer"
-							class="gtco-card-item has-text">
-							<figure>
-								<div class="overlay"><i class="ti-arrow-right"></i></div>
-								<img src="images/Store.png" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text text-left">
-								<h2>Online Store</h2>
-								<p>Небольшое приложение для организации книжной коллекции</p>
-								<p class="gtco-stack">WinForms, MS SQL Server, Entity Framework</p>
-							</div>
-						</a>
-					</div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="https://github.com/Mozma/Bookshelf" target="_blank" rel="noopener noreferrer"
+                            class="card-item has-text">
+                            <figure>
+                                <div class="overlay"><i class="devicon-github-original"></i></div>
+                                <img src="images/Shelf.png" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="card-item-text text-left">
+                                <h2>Bookshelf</h2>
+                                <p>Небольшое приложение для организации книжной коллекции</p>
+                                <p class="gtco-stack">WPF, SQLite, Entity Framework</p>
+                            </div>
+                        </a>
+                    </div>
 
-					<div class="col-md-4">
-						<a href="https://github.com/Mozma/FractalPics" target="_blank" rel="noopener noreferrer"
-							class="gtco-card-item has-text">
-							<figure>
-								<div class="overlay"><i class="ti-arrow-right"></i></div>
-								<img src="images/Fractal.png" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text text-left">
-								<h2>Fractal Pics</h2>
-								<p>Приложение, которое визуализирует некоторые фракталов</p>
-							</div>
-						</a>
-					</div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="https://github.com/Mozma/OnlineStore" target="_blank" rel="noopener noreferrer"
+                            class="card-item has-text">
+                            <figure>
+                                <div class="overlay"><i class="devicon-github-original"></i></div>
+                                <img src="images/Store.png" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="card-item-text text-left">
+                                <h2>Online Store</h2>
+                                <p>Небольшое приложение для организации книжной коллекции</p>
+                                <p class="gtco-stack">WinForms, MS SQL Server, Entity Framework</p>
+                            </div>
+                        </a>
+                    </div>
 
-					<div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="clearfix visible-sm"></div>
 
-					<div class="col-md-4">
-						<a href="https://github.com/Mozma/SomeBinaryStuff" target="_blank" rel="noopener noreferrer"
-							class="gtco-card-item has-text">
-							<figure>
-								<div class="overlay"><i class="ti-arrow-right"></i></div>
-								<img src="images/Binary.png" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text text-left">
-								<h2>Some Binary Stuff</h2>
-								<p>Простой тренажёр перевода чисел в разные системы счисления</p>
-							</div>
-						</a>
-					</div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="https://github.com/Mozma/FractalPics" target="_blank" rel="noopener noreferrer"
+                            class="card-item has-text">
+                            <figure>
+                                <div class="overlay"><i class="devicon-github-original"></i></div>
+                                <img src="images/Fractal.png" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="card-item-text text-left">
+                                <h2>Fractal Pics</h2>
+                                <p>Приложение, которое визуализирует некоторые фракталов</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="clearfix visible-md"></div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="https://github.com/Mozma/SomeBinaryStuff" target="_blank" rel="noopener noreferrer"
+                            class="card-item has-text">
+                            <figure>
+                                <div class="overlay"><i class="devicon-github-original"></i></div>
+                                <img src="images/Binary.png" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="card-item-text text-left">
+                                <h2>Some Binary Stuff</h2>
+                                <p>Простой тренажёр перевода чисел в разные системы счисления</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="clearfix visible-sm visible-lg"></div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 clearfix">
+                        <a href="https://github.com/Mozma/c-sharp-Tetris" target="_blank" rel="noopener noreferrer"
+                            class="card-item has-text">
+                            <figure>
+                                <div class="overlay"><i class="devicon-github-original"></i></div>
+                                <img src="images/Tetris.png" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="card-item-text text-left">
+                                <h2>Tetris v1.0</h2>
+                                <p>Куда же без тетриса</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="gtco-section" id="skills">
+            <div class="main-container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="gtco-heading">
+                            <h2 class="gtco-left">Навыки</h2>
+                            <p>Невероятное описание моих навыков</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="fa fa-bookmark"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Ключевые навыки</h3>
+                                        <p>C#, WinForms, WPF</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="fa fa-database"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Базы данных</h3>
+                                        <p>MSSQL, T-SQL, SQLite</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row clearfix">
+                            <div class="col-md-12">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="fa fa-code"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Фреймворки</h3>
+                                        <p>Entity Framework</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="fa fa-cogs"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Инструменты</h3>
+                                        <p>VS Studio, Git, GitHub, TFVC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-					<div class="col-md-4">
-						<a href="https://github.com/Mozma/c-sharp-Tetris" target="_blank" rel="noopener noreferrer"
-							class="gtco-card-item has-text">
-							<figure>
-								<div class="overlay"><i class="ti-arrow-right"></i></div>
-								<img src="images/Tetris.png" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text text-left">
-								<h2>Tetris v1.0</h2>
-								<p>Куда же без тетриса</p>
-							</div>
-						</a>
-					</div>
+    <!-- Contacts -->
+    <div id="contacts" class="contact-cover contact-cover-xs" style="background-image:url(images/Shark.jpg);">
+        <div class="overlay"></div>
+        <div class="main-container">
+            <div class="row text-center">
+                <div class="display-t">
+                    <div class="display-tc">
+                        <div class="col-md-12">
+                            <h3>Связаться со мной можно по почте <a
+                                    href="mailto:il.mozma@gmail.com">il.mozma@gmail.com</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
 
 
-					<div class="clearfix visible-lg-block visible-md-block"></div>
-					<div class="clearfix visible-sm-block"></div>
-
-				</div>
-			</div>
-		</div>
-		<div class="gtco-section" id="gtco-services" data-section="skills">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="gtco-heading">
-							<h2 class="gtco-left">Навыки</h2>
-							<p>Невероятное описание моих навыков</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="row">
-
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="ti-bookmark"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Ключевые навыки</h3>
-										<p>C#, WinForms, WPF</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="ti-server"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Базы данных</h3>
-										<p>MSSQL, T-SQL, SQLite</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeIn">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="ti-harddrive"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Фреймворки</h3>
-										<p>Entity Framework</p>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="feature-left">
-										<span class="icon">
-											<i class="ti-ruler-alt"></i>
-										</span>
-										<div class="feature-copy">
-											<h3>Инструменты</h3>
-											<p>VS Studio, Git, GitHub, TFVC</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="gtco-contact" data-section="contact" class="gtco-cover gtco-cover-xs"
-			style="background-image:url(images/Shark.jpg);">
-			<div class="overlay"></div>
-			<div class="gtco-container">
-				<div class="row text-center">
-					<div class="display-t">
-						<div class="display-tc">
-							<div class="col-md-12">
-								<h3>Связаться со мной можно по почте <a href="mailto:il.mozma@gmail.com">il.mozma@gmail.com</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <footer id="footer">
+        <div class="main-container ">
+            <div class="row ">
+                <div class="col-md-12">
+                    <p class="pull-left">
+                        <small class="block">&copy; 2021 Ilia Zadornov</small>
+                    </p>
+                    <p class="pull-right align-middle">
+                    <ul class="social-icons pull-right ">
+                        <li>
+                            <a href="https://github.com/Mozma" target="_blank" rel="noopener noreferrer">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                        <li>
+                            <a href="https://vk.com/mozmaa" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                        <li><a href="https://www.instagram.com/kopik/"><i class="fab fa-instagram"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-		<footer id="gtco-footer" role="contentinfo">
-			<div class="gtco-container ">
-				<div class="row copyright">
-					<div class="col-md-12">
-						<p class="pull-left">
-							<small class="block">&copy; 2021 Ilia Zadornov</small>
-						</p>
-						<p class="pull-right align-middle">
-						<ul class="gtco-social-icons pull-right ">
-							<li><a href="https://github.com/Mozma" target="_blank" rel="noopener noreferrer"><i
-										class="devicon-github-original"></i>
-								</a></li>
-							<li><a href="https://vk.com/mozmaa" target="_blank" rel="noopener noreferrer"><i
-										class="icon-vk"></i></a></li>
-							<li><a href="https://www.instagram.com/kopik/"><i class="ti-instagram"></i></a></li>
-						</ul>
-						</p>
-					</div>
-				</div>
+    <!-- Bottom Navigation -->
+    <div class="nav-bottom">
 
-			</div>
-		</footer>
-	</div>
+        <a href="#projects" class="nav__link" data-nav-section="skills">
+            <i class="material-icons nav__icon">dashboard</i>
+            <span class="nav__text">Проекты</span>
+        </a>
+        <a href="#skills" class="nav__link nav__link" data-nav-section="projects">
+            <i class="material-icons nav__icon">person</i>
+            <span class="nav__text">Навыки</span>
+        </a>
+        <a href="#contacts" class="nav__link">
+            <i class="material-icons nav__icon">mail</i>
+            <span class="nav__text">Контакты</span>
+        </a>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
+        <div class="nav-link"></div>
+    </div>
+    </div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="fas fa-arrow-up"></i> </a>
+    </div>
 
-	<!-- Main -->
-	<script src="js/main.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
