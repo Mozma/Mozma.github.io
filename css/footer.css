@@ -22,16 +22,16 @@
     zoom: 1;
     *display: inline;
   }
-  
-  .social-icons li a {
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    color: #77D970 !important;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+
+    .social-icons li a {
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        color: #5E7EBF !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
   
   .social-icons li a i {
     font-size: 20px;

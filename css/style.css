@@ -28,7 +28,7 @@ a {
 
 ::selection {
     color: #fff;
-    background: #77D970;
+    background: #94B3F2;
 }
 
 .main-container {
@@ -55,14 +55,14 @@ a {
     display: flex;
     width: 200px;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
 
 .text-logo a {
     text-decoration: none ;
-    color: #000 
+    color: #fff 
 }
 
 
@@ -141,11 +141,11 @@ a {
   #skills .feature-left .icon i {
     color: #cccccc !important;
   }
-  
-  #skills .feature-left h3 {
-    color: #77D970;
+
+#skills .feature-left h3 {
+    color: #5E7EBF;
     font-size: 22px;
-  }
+}
   
 .gtco-heading h2.gtco-left:before {
     left: 0;
@@ -160,7 +160,7 @@ a {
     margin-left: -25px;
     height: 2px;
     left: 50%;
-    background: #77D970;
+    background: #5E7EBF;
 }
 
 p {
@@ -205,7 +205,7 @@ p {
     height: 90px;
     font-size: 40px;
     line-height: 40px;
-    color: #77D970;
+    color: #94B3F2;
   }
   
   .feature-center p,
@@ -236,7 +236,7 @@ p {
     display: table-cell;
     vertical-align: middle;
     font-size: 40px;
-    color: #77D970;
+    color: #94B3F2;
   }
   
   .feature-left .feature-copy {
@@ -293,7 +293,7 @@ p {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #77D970;
+  color: #94B3F2;
 }
 
 .feature-left .feature-copy {
